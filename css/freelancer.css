@@ -214,7 +214,7 @@ header.masthead h2 {
 
 @media (min-width: 992px) {
   header.masthead {
-    padding-top: calc(6rem + 106px);
+    padding-top: calc(3rem + 26px);
     padding-bottom: 6rem;
   }
   header.masthead h1 {
@@ -442,4 +442,8 @@ ul.list-inline.mb-0 {
 a.rounded-circle {
   background-color: black;
   opacity: 0.8;;
+}
+
+.container.img-fluid {
+  padding-top: 25px;
 }
