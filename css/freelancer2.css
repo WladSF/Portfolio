@@ -49,7 +49,7 @@
     font-weight: 900;
     font-size: 2em;
   }
-  
+
   hr.star-light {
     border-color: #fff;
   }
@@ -73,13 +73,25 @@
   }
   
   section#contact {
-    padding: 3rem 0 0;
+    padding: 2rem 0 0;
+  }
+
+  section#portfolio {
+    padding-top: 35px;
+  }
+
+  section#about {
+    padding-top: 50px;
   }
   
   section h2 {
     font-size: 2.25rem;
     line-height: 2rem;
     color: #2C3E50;
+  }
+
+  .col-md-4#mediaicons {
+    margin: 6px auto;
   }
   
   @media (min-width: 992px) {
@@ -401,5 +413,8 @@
 
   a.rounded-circle {
     background-color: black;
-    opacity: 0.8;;
+    opacity: 0.6;
+    margin-bottom: 10px;
   }
+
+  
